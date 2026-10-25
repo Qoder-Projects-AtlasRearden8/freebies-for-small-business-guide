@@ -1,0 +1,18 @@
+{
+  "name": "freebies-for-small-business-guide",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A plain-English guide to legitimate free software, templates, training, and government resources for new small businesses and single-member LLCs.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test test/build.test.mjs",
+    "serve": "node scripts/serve.mjs",
+    "check": "npm run build && npm test"
+  },
+  "author": "Asdale Dynamics, LLC",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
